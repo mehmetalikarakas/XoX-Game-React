@@ -1,0 +1,32 @@
+#game {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #94b49f;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  border: 1px solid #393e46;
+  cursor: pointer;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.winningText {
+  position: relative;
+  top: -50px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #393e46;
+  background-color: #eee;
+  padding: 10px 20px;
+}
